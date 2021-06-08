@@ -1,4 +1,4 @@
--include $(VAR_DIR)/platform-texas/account-live-k8s-nonprod.mk
+include $(VAR_DIR)/platform-texas/v1/account-live-k8s-nonprod.mk
 
 # ==============================================================================
 # Service variables
@@ -43,12 +43,12 @@ NAME_PUBLIC_PRIORITY := 4
 # Infrastructure variables
 
 DEPLOYMENT_STACKS = application
-INFRASTRUCTURE_STACKS = elasticsearch
+INFRASTRUCTURE_STACKS = elasticsearch,authentication
 
 TF_VAR_service_prefix := service-fuzzy-search-$(PROFILE)
 TF_VAR_service_prefix_short := sfs-$(PROFILE)
 
-TF_VAR_es_zone_awareness_enabled  := false
+TF_VAR_es_zone_awareness_enabled := false
 TF_VAR_es_availability_zone_count := null
 TF_VAR_es_instance_count := 1
 TF_VAR_es_instance_type := t3.small.elasticsearch
