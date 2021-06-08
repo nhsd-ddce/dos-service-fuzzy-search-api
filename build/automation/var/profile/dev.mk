@@ -42,7 +42,7 @@ NAME_PUBLIC_PRIORITY := 4
 # ==============================================================================
 # Infrastructure variables
 
-DEPLOYMENT_STACKS = service
+DEPLOYMENT_STACKS = application
 INFRASTRUCTURE_STACKS = elasticsearch,authentication
 
 TF_VAR_service_prefix := service-fuzzy-search-$(PROFILE)
