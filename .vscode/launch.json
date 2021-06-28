@@ -26,7 +26,11 @@
         "ADDRESS_PRIORITY":0,
         "POSTCODE_PRIORITY":0,
         "PUBLIC_NAME_PRIORITY":0,
-        "DYNAMODB_POSTCODE_LOC_MAP_TABLE":"service-finder-nonprod-postcode-location-mapping"
+        "COOKIE_DOMAIN":"localhost",
+        "COGNITO_JWT_VERIFICATION_URL":"http://testJwtVerificationUrl",
+        "COGNITO_USER_POOL_CLIENT_ID":"testUserPoolClientId",
+        "COGNITO_USER_POOL_CLIENT_SECRET":"testUserPoolClientSecret",
+        "COGNITO_USER_POOL_ID":"testUserPoolId",
       }
     },
     {
@@ -52,7 +56,11 @@
         "ADDRESS_PRIORITY":0,
         "POSTCODE_PRIORITY":0,
         "PUBLIC_NAME_PRIORITY":0,
-        "DYNAMODB_POSTCODE_LOC_MAP_TABLE":"service-finder-nonprod-postcode-location-mapping"
+        "COOKIE_DOMAIN":"localhost",
+        "COGNITO_JWT_VERIFICATION_URL":"http://testJwtVerificationUrl",
+        "COGNITO_USER_POOL_CLIENT_ID":"testUserPoolClientId",
+        "COGNITO_USER_POOL_CLIENT_SECRET":"testUserPoolClientSecret",
+        "COGNITO_USER_POOL_ID":"testUserPoolId",
       }
     },
     {
@@ -77,7 +85,11 @@
         "ADDRESS_PRIORITY":0,
         "POSTCODE_PRIORITY":0,
         "PUBLIC_NAME_PRIORITY":0,
-        "DYNAMODB_POSTCODE_LOC_MAP_TABLE":"service-finder-nonprod-postcode-location-mapping"
+        "COOKIE_DOMAIN":"localhost",
+        "COGNITO_JWT_VERIFICATION_URL":"http://testJwtVerificationUrl",
+        "COGNITO_USER_POOL_CLIENT_ID":"testUserPoolClientId",
+        "COGNITO_USER_POOL_CLIENT_SECRET":"testUserPoolClientSecret",
+        "COGNITO_USER_POOL_ID":"testUserPoolId",
       }
     }
   ]
